@@ -8,7 +8,7 @@ e=`echo $k  | cut  -f  1  -d  ","`
 nohup  java  -jar     export.jar \
 $s   \
 $e  \
->>  res.txt  2>&1
+>>  res.txt  2>&1   &
 done
 
 
